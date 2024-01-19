@@ -1,5 +1,6 @@
 #terminal div {
     color: gray;
+    font-family: "Times New Roman", Times, serif;
 }
 
 #terminal div.out {
