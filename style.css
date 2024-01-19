@@ -9,3 +9,7 @@
 #terminal div.in {
     color: blue;
 }
+
+#terminal div {
+  font: font-family font-style font-variant font-weight font-size line-height;
+}
