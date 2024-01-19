@@ -10,6 +10,6 @@
     color: blue;
 }
 
-#terminal div {
-  font: font-family font-style font-variant font-weight font-size line-height;
+#terminal div { 
+  font-family: 'Arial', 'Verdana', sans-serif;
 }
