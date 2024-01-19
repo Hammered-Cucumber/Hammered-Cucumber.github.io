@@ -1,5 +1,6 @@
 #terminal div {
     color: gray;
+    font: 12pt sans-serif;
 }
 
 #terminal div.out {
