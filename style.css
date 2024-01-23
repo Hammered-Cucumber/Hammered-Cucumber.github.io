@@ -33,7 +33,7 @@ button#disconnect {
     color: white;
 }
 
-#send-form submit {
+submit#send-form {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
