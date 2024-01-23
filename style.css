@@ -26,3 +26,15 @@ button#disconnect {
     border: none;
     color: white;
 }
+
+#send-form input  {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+}
+
+#send-form submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+}
