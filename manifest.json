@@ -1,9 +1,17 @@
 {
     "name": "LightHouse",
-    "icons": {
-     "48": "icon_48.png",
-     "128": "icon_128.png",
+    "icons": [
+    {
+      "src": "icon_48.png",
+      "sizes": "48x48",
+      "type": "image/png"
     },
+    {
+      "src": "icon_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
