@@ -15,7 +15,7 @@
 /*фон*/
 
 body {
-    background: black;
+    background: linear-gradient(#f51302, #f5a802);
 }
 
 /*кнопки*/
