@@ -16,6 +16,7 @@
 
 body {
     background: linear-gradient(#f51302, #f5a802);
+    background-position: 50% 50%;
 }
 
 /*кнопки*/
