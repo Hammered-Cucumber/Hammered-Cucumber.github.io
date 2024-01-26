@@ -1,3 +1,4 @@
+/*текст*/
 #terminal div {
     color: gray;
     font: 12pt sans-serif;
@@ -11,30 +12,38 @@
     color: blue;
 }
 
- body {
+/*фон*/
+
+body {
     background: black;
 }
+
+/*кнопки*/
 
 button#connect {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
+    border-radius: 5px;
 }
 
 button#disconnect {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
+    border-radius: 5px;
 }
 
 #send-form input  {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
+    border-radius: 5px;
 }
 
 #send-form button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
+    border-radius: 5px;
 }
