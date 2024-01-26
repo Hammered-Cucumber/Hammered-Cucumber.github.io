@@ -1,8 +1,8 @@
 {
     "name": "LightHouse",
     "icons": {
-     "48": "Group 48.png",
-     "128": "Group 128.png",
+     "48": "icon_48.png",
+     "128": "icon_128.png",
     },
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
