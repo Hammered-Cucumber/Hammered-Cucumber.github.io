@@ -17,8 +17,9 @@
 body {
     background: linear-gradient(#f51302, #f5a802);
     background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 /*кнопки*/
