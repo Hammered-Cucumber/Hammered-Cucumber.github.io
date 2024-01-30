@@ -17,7 +17,7 @@
 body {
     background: linear-gradient(#f51302, #f5a802);
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
