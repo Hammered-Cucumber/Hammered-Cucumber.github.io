@@ -1,21 +1,21 @@
 /*текст*/
 #terminal div {
-    color: black;
+    color: #a18abd;
     font: 12pt sans-serif;
 }
 
 #terminal div.out {
-    color: black;
+    color: #a18abd;
 }
 
 #terminal div.in {
-    color: black;
+    color: #a18abd;
 }
 
 /*фон*/
 
 body {
-    background: linear-gradient(#f51302, #f5a802);
+    background: linear-gradient(#050505, #7403ff);
     background-size: cover;
     background-position: 50% 50%;
     background-attachment: fixed;
@@ -25,29 +25,29 @@ body {
 /*кнопки*/
 
 button#connect {
-    background-color: #0d0d0d; /* black */
+    background-color: #8a8a8a; /* black */
     border: none;
-    color: white;
+    color: #65458c;
     border-radius: 5px;
 }
 
 button#disconnect {
-    background-color: #0d0d0d; /* black */
+    background-color: #8a8a8a; /* black */
     border: none;
-    color: white;
+    color: #65458c;
     border-radius: 5px;
 }
 
 #send-form input  {
-    background-color: #0d0d0d; /* black */
+    background-color: #8a8a8a; /* black */
     border: none;
-    color: white;
+    color: #65458c;
     border-radius: 5px;
 }
 
 #send-form button {
-    background-color: #0d0d0d; /* black */
+    background-color: #8a8a8a; /* black */
     border: none;
-    color: white;
+    color: #65458c;
     border-radius: 5px;
 }
