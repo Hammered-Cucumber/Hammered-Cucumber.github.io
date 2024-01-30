@@ -27,21 +27,21 @@ body {
 button#connect {
     background-color: #8a8a8a; /* black */
     border: none;
-    color: #65458c;
+    color: #a18abd;
     border-radius: 5px;
 }
 
 button#disconnect {
     background-color: #8a8a8a; /* black */
     border: none;
-    color: #65458c;
+    color: #a18abd;
     border-radius: 5px;
 }
 
 #send-form input  {
     background-color: #8a8a8a; /* black */
     border: none;
-    color: #65458c;
+    color: #a18abd;
     border-radius: 5px;
 }
 
