@@ -22,3 +22,11 @@ body {
     color: #65458c;
     border-radius: 5px;
 }
+
+.btn {
+    background-color: #8a8a8a; /* black */
+    border: none;
+    color: #65458c;
+    border-radius: 5px;
+    cursor: pointer;
+}
