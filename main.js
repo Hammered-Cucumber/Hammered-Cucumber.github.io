@@ -1,12 +1,6 @@
-// Получение ссылок на элементы UI
-let connectButton = document.getElementById('connect');
-let disconnectButton = document.getElementById('disconnect');
-let terminalContainer = document.getElementById('terminal');
-let sendForm = document.getElementById('send-form');
-let inputField = document.getElementById('input');
-
-// Кэш объекта выбранного устройства
-let deviceCache = null;
+button.addEventListener('pointerup', function(event) {
+  // Call navigator.bluetooth.requestDevice
+});
 
 // Запустить выбор Bluetooth устройства и подключиться к выбранному
 function connect() {
