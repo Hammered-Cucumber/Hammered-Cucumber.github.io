@@ -1,17 +1,3 @@
-/*текст*/
-#terminal div {
-    color: #a18abd;
-    font: 12pt sans-serif;
-}
-
-#terminal div.out {
-    color: #a18abd;
-}
-
-#terminal div.in {
-    color: #a18abd;
-}
-
 /*фон*/
 
 body {
@@ -23,21 +9,6 @@ body {
 }
 
 /*кнопки*/
-
-button#connect {
-    background-color: #8a8a8a; /* black */
-    border: none;
-    color: #65458c;
-    border-radius: 5px;
-}
-
-button#disconnect {
-    background-color: #8a8a8a; /* black */
-    border: none;
-    color: #65458c;
-    border-radius: 5px;
-}
-
 #send-form input  {
     background-color: #8a8a8a; /* black */
     border: none;
