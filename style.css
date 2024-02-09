@@ -23,7 +23,7 @@ body {
     border-radius: 5px;
 }
 
-#send-form button {
+#CONNECT button {
     background-color: #8a8a8a; /* black */
     border: none;
     color: #65458c;
