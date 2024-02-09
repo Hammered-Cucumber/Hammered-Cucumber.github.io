@@ -1,6 +1,6 @@
 let button = document.querySelector('#connect');
 
-connect.addEventListener('pointerup', function(event) {
+button.addEventListener('pointerup', function(event) {
   // Call navigator.bluetooth.requestDevice
 
   navigator.bluetooth.requestDevice({
