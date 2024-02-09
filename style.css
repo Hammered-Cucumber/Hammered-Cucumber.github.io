@@ -25,7 +25,8 @@ body {
 
 #CONNECT button {
     background-color: #8a8a8a; /* black */
-    border: none;
+    padding:10px;
+    border-radius:100%;
     color: #65458c;
-    border-radius: 5px;
+    text-align: center;
 }
