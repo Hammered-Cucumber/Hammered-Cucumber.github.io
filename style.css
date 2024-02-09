@@ -29,4 +29,6 @@ body {
     border-radius:100%;
     color: #65458c;
     text-align: center;
+    width: 100px;
+    height: 100px;
 }
