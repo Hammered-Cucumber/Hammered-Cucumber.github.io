@@ -23,7 +23,7 @@ button.addEventListener('pointerup', function(event) {
 .then(server => { /* … */ })
 .catch(error => { console.error(error); });
 });
-
+//aboba
 const send = (data) => {
   terminal.send(data).
       then(() => logToTerminal(data, 'out')).
