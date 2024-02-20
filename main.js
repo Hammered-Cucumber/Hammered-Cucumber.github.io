@@ -38,3 +38,14 @@ sendForm.addEventListener('submit', (event) => {
   inputField.value = '';
   inputField.focus();
 });
+
+function setOpacity() {
+  var el = document.getElementsByClassName("send-form")[0];
+  var op = 0;
+  
+  while (op <= 1) {
+    op += 0.01;
+    debugger;
+    setTimeout(el.style.opacity = op, 60);
+  }
+}
