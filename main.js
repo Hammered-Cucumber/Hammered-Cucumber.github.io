@@ -40,7 +40,8 @@ sendForm.addEventListener('submit', (event) => {
 });
 
 function setOpacity() {
-  var el = document.getElementsByClassName("send-form")[0];
+  var el = document.getElementsByClassName("sendForm")[0];
+  var el = document.getElementsByClassName("inputField")[0];
   var op = 0;
   
   while (op <= 1) {
