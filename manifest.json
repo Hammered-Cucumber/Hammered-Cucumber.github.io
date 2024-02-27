@@ -1,6 +1,10 @@
 {
     "name": "LightHouse",
     "icons": [
+        "96": "Group 2 (1).png"
+        "48": "icon_48.png"
+        "128": "icon_128.png"
+        
     {
       "src": "icon_48.png",
       "sizes": "48x48",
