@@ -46,7 +46,6 @@ function setOpacity() {
   
   while (op <= 1) {
     op += 0.01;
-    debugger;
     setTimeout(el.style.opacity = op, 60);
   }
 }
