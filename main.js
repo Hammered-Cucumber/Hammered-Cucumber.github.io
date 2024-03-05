@@ -39,8 +39,4 @@ sendForm.addEventListener('submit', (event) => {
   inputField.focus();
 });
 
-function setOpacity() {
-  var el = document.getElementsByClassName("sendForm")[0];
-  var el = document.getElementsByClassName("inputField")[0];
-  var op = 0;
   
