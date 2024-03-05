@@ -30,15 +30,6 @@ const send = (data) => {
       catch((error) => logToTerminal(error));
 };
 
-sendForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  send(inputField.value);
-
-  inputField.value = '';
-  inputField.focus();
-});
-
 const send = (data) => {
   terminal.send(data).
       then(() => input(data, 'out')).
