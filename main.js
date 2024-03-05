@@ -1,6 +1,6 @@
 let button = document.querySelector('#connect');
 let sendForm = document.getElementById('send-form');
-let inputField = document.getElementById('input');
+const terminalContainer = document.getElementById('input');
 
 button.addEventListener('pointerup', function(event) {
   // Call navigator.bluetooth.requestDevice
@@ -39,4 +39,10 @@ sendForm.addEventListener('submit', (event) => {
   inputField.focus();
 });
 
+const send = (data) => {
+  terminal.send(data).
+      then(() => input(data, 'out')).
+      catch((error) => input(error));
+};
   
+
