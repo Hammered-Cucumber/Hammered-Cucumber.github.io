@@ -1,14 +1,13 @@
+let button = document.querySelector('#connect');
+let sendForm = document.getElementById('send-form');
+let inputField = document.getElementById('input');
+
 connectButton.addEventListener('click', () => {
   terminal.connect().
       then(() => {
         deviceNameLabel.textContent = terminal.getDeviceName() ?
             terminal.getDeviceName() : defaultDeviceName;
       });
-});
-
-disconnectButton.addEventListener('click', () => {
-  terminal.disconnect();
-  deviceNameLabel.textContent = defaultDeviceName;
 });
 
 sendForm.addEventListener('submit', (event) => {
