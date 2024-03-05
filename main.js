@@ -2,7 +2,7 @@ let button = document.querySelector('#connect');
 let sendForm = document.getElementById('send-form');
 let inputField = document.getElementById('input');
 
-connectButton.addEventListener('click', () => {
+connect.addEventListener('click', () => {
   terminal.connect().
       then(() => {
         deviceNameLabel.textContent = terminal.getDeviceName() ?
