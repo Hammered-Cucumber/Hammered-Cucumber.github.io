@@ -44,8 +44,3 @@ function setOpacity() {
   var el = document.getElementsByClassName("inputField")[0];
   var op = 0;
   
-  while (op <= 1) {
-    op += 0.01;
-    setTimeout(el.style.opacity = op, 60);
-  }
-}
