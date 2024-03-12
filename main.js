@@ -24,7 +24,6 @@ button.addEventListener('pointerup', function(event) {
 .catch(error => { console.error(error); });
 });
 //aboba
-
 const send = (data) => {
   terminal.send(data).
       then(() => input(data, 'out')).
